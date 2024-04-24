@@ -6,7 +6,7 @@ import Subheading from '../subheading/Subheading'
 import { BsChevronRight } from 'react-icons/bs'
 import "./about.scss";
 const experience = [
-  "Having Total Years of experience in Front End Development.",
+  "Having Total 8+ Years of experience in Front End Development.",
   
 ];
 const getItems = (text) => {

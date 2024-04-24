@@ -6,8 +6,8 @@ import "./resume.scss";
 const one = [
   {
     title: "",
-    fromYear: 345345,
-    toyear: 345,
+    fromYear: 2022,
+    toyear: 2024,
     content: "Client: ",
     points: [
       'Developing ',

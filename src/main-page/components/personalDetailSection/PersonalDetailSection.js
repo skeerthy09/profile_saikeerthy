@@ -27,7 +27,7 @@ const PersonalDetailSection = () => {
                     <ul>
                       <li>
                         <BsChevronRight className='chevronright'/>
-                        <strong>Birthday:</strong> <span></span>
+                        <strong>Birthday:</strong> <span>JAN 1992</span>
                       </li>
                       <li>
                       <BsChevronRight className='chevronright'/>
@@ -35,11 +35,11 @@ const PersonalDetailSection = () => {
                       </li>
                       <li>
                       <BsChevronRight className='chevronright'/>
-                        <strong>Phone:</strong> <span>+1</span>
+                        <strong>Phone:</strong> <span>+1 (646) 543-1491</span>
                       </li>
                       <li>
                       <BsChevronRight className='chevronright'/>
-                        <strong>City:</strong> <span></span>
+                        <strong>City:</strong> <span>West Chester, PA 19382</span>
                       </li>
                     </ul>
                     </Col>
@@ -56,7 +56,7 @@ const PersonalDetailSection = () => {
                       <li>
                       <BsChevronRight className='chevronright'/>
                         <strong>Email:</strong>
-                        <span>@gmail.com</span>
+                        <span>skeerthy09@gmail.com</span>
                       </li>
                       <li>
                       {/* <BsChevronRight className='chevronright'/>
