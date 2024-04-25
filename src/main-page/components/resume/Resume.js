@@ -5,93 +5,76 @@ import Heading from "../heading/Heading";
 import "./resume.scss";
 const one = [
   {
-    title: "",
-    fromYear: 2022,
-    toyear: 2024,
-    content: "Client: ",
+    title: "Fidelity Investments, SaltLake City, UT	",
+    fromYear: "May 2022",
+    toyear: "Till Date",
+    // content: "Client: ",
     points: [
       'Developing ',
       'Involved ',
    
     ]
-  },
-  {
-    title: "",
-    fromYear: 345,
-    toyear: 435,
-    content: "",
-    points: [
-      'Developing ',
-      'Involved ',
-    ]
-  },
-  
+  }
 ];
 const two = [
   {
-    title: "",
-    fromYear:  345,
-    toyear: 345,
+    title: "Prudential Financial, Newark, NJ",
+    fromYear:  "Jan 2021",
+    toyear: "May 2022",
     content: "",
     points: [
       'Developing ',
       'Involved ',
     ]
-  },
-  {
-    title: " ",
-    fromYear: 546 ,
-    toyear: 56 ,
-    content: "",
-    points: [
-      'Developing ',
-      'Involved ',
-    ]
-  },
-  {
-    title: " ",
-    fromYear:  34,
-    toyear:  34,
-    content: "",
-    points: [
-      'Developing ',
-      'Involved ',
-    ]
-  },
-  
+  }
 ];
 const three = [
   {
-    title: "",
-    fromYear:  345,
-    toyear: 345,
+    title: "J.B. Hunt Transport Services Inc, Lowell, AK",
+    fromYear:  "June 2020",
+    toyear: "Dec 2020",
     content: "",
     points: [
       'Developing ',
       'Involved ',
     ]
-  },
+  }
+];
+const four = [
   {
-    title: " ",
-    fromYear: 546 ,
-    toyear: 56 ,
+    title: "Prudential Financial, Newark, NJ",
+    fromYear:  "Jan 2019",
+    toyear: "June 2020",
     content: "",
     points: [
       'Developing ',
       'Involved ',
     ]
-  },
+  }
+];
+const five = [
   {
-    title: " ",
-    fromYear:  34,
-    toyear:  34,
+    title: "JP Morgan Chase & Co, Newark, DE",
+    fromYear:  "June 2018",
+    toyear: "Dec 2018",
     content: "",
     points: [
       'Developing ',
       'Involved ',
     ]
-  },
-  
+  }
+];
+const six = [
+  {
+    title: "Catholic Health Initiatives, Englewood, CO",
+    fromYear:  "Aug 2016",
+    toyear: "June 2018",
+    content: "",
+    points: [
+      'Developing ',
+      'Involved ',
+    ]
+  }
 ];
 const Resume = () => {
   return (
@@ -100,14 +83,20 @@ const Resume = () => {
         <Row>
           <Heading heading={"Experience"} />
           <Col lg={6} sm={12} xs={12}>
-          <h3 className="stepper-title">{"one"}</h3>
+            <h3 className="stepper-title">{""}</h3>
             <StepperComponent stepBlocks={one} />
-            <h3 className="stepper-title">{"two"}</h3>
+            <h3 className="stepper-title">{""}</h3>
             <StepperComponent stepBlocks={two} />
+            <h3 className="stepper-title">{""}</h3>
+            <StepperComponent stepBlocks={three} />
           </Col>
           <Col lg={6} sm={12} xs={12}>
-          <h3 className="stepper-title">{"three"}</h3>
-            <StepperComponent stepBlocks={three} />
+            <h3 className="stepper-title">{""}</h3>
+            <StepperComponent stepBlocks={four} />
+            <h3 className="stepper-title">{""}</h3>
+            <StepperComponent stepBlocks={five} />
+            <h3 className="stepper-title">{""}</h3>
+            <StepperComponent stepBlocks={six} />
           </Col>
         </Row>
       </div>
