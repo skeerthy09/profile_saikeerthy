@@ -30,7 +30,7 @@ const Facts = () => {
                 
               </div>
               <div> Organizations</div>
-              <CountUp end={3} className="countup"></CountUp>
+              <CountUp end={2} className="countup"></CountUp>
             </div>
           </Col>
           <Col lg={3} md={3} sm={6} xs={6}>
@@ -48,7 +48,7 @@ const Facts = () => {
                 <LuClock4 />
               </div>
               <div>Time Spent hrs.</div>
-              <CountUp end={14560} className="countup"></CountUp>
+              <CountUp end={15360} className="countup"></CountUp>
             </div>
           </Col>
           <Col lg={3} md={3} sm={6} xs={6}>
@@ -57,7 +57,7 @@ const Facts = () => {
                 <MdOutlineHandshake />
               </div>
               <div>Clients</div>
-              <CountUp end={4} className="countup"></CountUp>
+              <CountUp end={5} className="countup"></CountUp>
             </div>
           </Col>
         </Row>
