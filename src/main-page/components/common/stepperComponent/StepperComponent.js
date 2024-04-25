@@ -11,7 +11,7 @@ const getStepBlocs = (stepBlocks) => {
           <h5 className="year">
             {item.fromYear} - {item.toyear}
           </h5>
-          <p><b>Client: {item.content}</b></p>
+          {/* <p><b>Client: {item.content}</b></p> */}
           <ul>
              {getPoints(item.points)}
           </ul>
