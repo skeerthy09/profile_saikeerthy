@@ -6,18 +6,19 @@ import { MdWorkOutline, MdOutlineHomeRepairService } from "react-icons/md";
 import { LuFileSpreadsheet } from "react-icons/lu";
 import { AiOutlineMail, AiOutlineCloseCircle } from "react-icons/ai";
 import { PiListLight } from "react-icons/pi";
+import resumeFile from "../resumeDoc/SaiKeerthy_Resume.pdf";
 import { Container, Row, Button } from "react-bootstrap";
 
 const Navigationbar = () => {
   const [listClicked, setListClicked] = useState(true);
   const [showLeftNav, setShowLeftNav] = useState("");
   useEffect(()=>{
-    if(!listClicked) {
-      document.body.style.overflow = 'hidden';
-    }
-    else {
-      document.body.style.overflow = 'visible';
-    }
+    // if(!listClicked) {
+    //   document.body.style.overflow = 'hidden';
+    // }
+    // else {
+    //   document.body.style.overflow = 'visible';
+    // }
   }, [listClicked])
   const onNavClickHandler = () => {
     setShowLeftNav("");
@@ -66,12 +67,12 @@ const Navigationbar = () => {
               </a>
             </li>
             <li>
-              <a href="#resume" class="nav-link scrollto" onClick={() => { onNavClickHandler()}}>
+              <a href={resumeFile} class="nav-link scrollto" target="_blank">
                 <MdWorkOutline /> <span>Resume</span>
               </a>
             </li>
             <li>
-              <a href="#portfolio" class="nav-link scrollto" onClick={() => { onNavClickHandler()}}>
+              <a href="#skills" class="nav-link scrollto" onClick={() => { onNavClickHandler()}}>
                 <LuFileSpreadsheet />
                 <span>Portfolio</span>
               </a>

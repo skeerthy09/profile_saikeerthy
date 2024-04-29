@@ -9,7 +9,7 @@ import "./contact.scss";
 const Contact = () => {
   return (
     <>
-      <div className="contact">
+      <div className="contact" id="contact">
         <Row>
           <Heading heading={"Contact"} />
           <Col xl={4} lg={4}>

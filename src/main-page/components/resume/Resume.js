@@ -79,7 +79,7 @@ const six = [
 const Resume = () => {
   return (
     <>
-      <div className="resume">
+      <div className="resume" id="services">
         <Row>
           <Heading heading={"Experience"} />
           <Col lg={6} sm={12} xs={12}>

@@ -11,6 +11,7 @@ const text =
 const Skills = () => {
   return (
     <>
+    <div id="skills">
       <Row>
         <Heading heading={heading} />
         {/* <Content text={text} /> */}
@@ -32,6 +33,7 @@ const Skills = () => {
           </Col>
         </Row>
       </Row>
+      </div>
     </>
   );
 };
