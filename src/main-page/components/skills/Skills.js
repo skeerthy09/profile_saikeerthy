@@ -25,11 +25,11 @@ const Skills = () => {
             <ProgressBarComponent label={"BOOTSTRAP"} number={80} />
           </Col>
           <Col lg={6} md={6} sm={12} xs={12}>
-            <ProgressBarComponent label={"REACT JS"} number={95} />
-            <ProgressBarComponent label={"REDUX"} number={90} />
-            <ProgressBarComponent label={"NODE JS"} number={50} />
-            <ProgressBarComponent label={"EXPRESS JS"} number={60} />
-            <ProgressBarComponent label={"ANGULAR 13"} number={50} />
+            <ProgressBarComponent label={"REACT JS"} number={60} />
+            <ProgressBarComponent label={"REDUX"} number={60} />
+            <ProgressBarComponent label={"NEXT JS"} number={60} />
+            <ProgressBarComponent label={"TYPESCRPT"} number={90} />
+            <ProgressBarComponent label={"ANGULAR 15"} number={90} />
           </Col>
         </Row>
       </Row>

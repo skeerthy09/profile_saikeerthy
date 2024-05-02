@@ -6,7 +6,7 @@ import { MdWorkOutline, MdOutlineHomeRepairService } from "react-icons/md";
 import { LuFileSpreadsheet } from "react-icons/lu";
 import { AiOutlineMail, AiOutlineCloseCircle } from "react-icons/ai";
 import { PiListLight } from "react-icons/pi";
-import resumeFile from "../resumeDoc/SaiKeerthy_Resume.pdf";
+import resumeFile from "../resumeDoc/SaiKeerthy_UI.pdf";
 import { Container, Row, Button } from "react-bootstrap";
 
 const Navigationbar = () => {
